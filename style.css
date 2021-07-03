@@ -1,0 +1,68 @@
+h2{
+    background-color:rgba(240, 255, 243, 0.521);
+    color: rgb(39, 33, 129);
+} 
+img{
+    border: solid;
+}  
+h1{
+   color: rgb(160, 46, 150);
+   border: solid;
+}
+a{
+    border: solid;
+    background-color:#808080;
+    font-size: 30px;
+}
+a:link{
+color: white;
+
+}
+a:visited{
+    color: red ;
+}
+.Title{
+    border: solid;
+    background-color:#206735;
+
+}
+.Details{
+    border: solid;
+    background-color: #450505;
+    font-size: 20px;
+    color:#1a1474;
+}
+.Frame1{
+    border: solid;
+    display:flex;
+    justify-content:space-between ;
+}
+.item{
+    background-color:#550000;
+    position: relative;
+    
+}
+marquee{
+    border: solid;
+    background-color: #005500;
+    color:#000055;
+}
+.Menu{
+    border: solid;
+    padding-top: 30px;
+
+}
+.item p{
+   position: absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,50%);
+   opacity: 0;
+    
+}
+.item :hover p{
+opacity:1;
+}
+.item :hover img{
+    opacity:0.33;
+}
